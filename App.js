@@ -55,7 +55,7 @@ function App() {
             required
           />
         </label>
-        <button type="submit">Register</button>
+        <button type="submit">Click here to register</button>
       </form>
     </div>
   );
