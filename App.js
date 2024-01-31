@@ -8,6 +8,7 @@ function App() {
     username: '',
     email: '',
     password: '',
+    confirm password: '',
   });
 
   const handleChange = (e) => {
@@ -55,6 +56,15 @@ function App() {
             required
           />
         </label>
+              <label>
+              confirm password:
+            <input
+              type="confirm password"
+              name="confirm password"
+              value={fromData.confirm password}
+              onChange={handleChange}
+              required
+            />
         <button type="submit">Register</button>
       </form>
     </div>
