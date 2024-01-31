@@ -18,7 +18,7 @@ function App() {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('Form submitted with data:', formData);
-    // Add your logic to send the form data to the server or perform other actions
+
   };
 
   return (
@@ -48,8 +48,8 @@ function App() {
         <label>
           Password:
           <input
-            type="password"
-            name="password"
+            type="Password"
+            name="Password"
             value={formData.password}
             onChange={handleChange}
             required
